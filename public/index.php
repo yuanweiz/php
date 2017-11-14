@@ -8,27 +8,23 @@
 </head>
 <body>
 <h1>find a restaurant</h1>
-<form method="POST" action="logincheck.php">
+<form method="POST" action="query.php">
 <table>
   <tr>
   <td>customer name:</td> 
-    <td><input type="text" size="10" name="customerName"></td>
+    <td><input type="text" size="30" name="customerName"></td>
   </tr>
   <tr>
     <td>keyword:</td>
-    <td><input type="text" size="10" name="keyword"></td>
+    <td><input type="text" size="30" name="keyword"></td>
   </tr>
   <tr>
     <td>number of people:</td>
-    <td><input type="text" size="10" name="quantity"></td>
+    <td><input type="number" size="10" name="quantity" value="10"></td>
   </tr>
   <tr>
-    <td>date:</td>
-    <td><input type="text" size="10" name="date"></td>
-  </tr>
-  <tr>
-    <td>time:</td>
-    <td><input type="text" size="10" name="time"></td>
+    <td>datetime:</td>
+    <td><input type="text" size="30" name="datetime" value="2017-11-05 12:00:00"></td>
   </tr>
 </table>
 <p><input type="submit" value="search">
